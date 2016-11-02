@@ -79,7 +79,7 @@
                     <a href="#bio" class="btn btn-secondary btn-lg scroll">Learn More</a>
                   </div>
                   <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
-                    <a href="#invite" class="btn btn-primary btn-lg scroll">Contact Me</a>
+                    <a href="#contact" class="btn btn-primary btn-lg scroll">Contact Me</a>
                   </div>
                 </div><!--End Button Row-->  
               </div>
@@ -110,7 +110,7 @@
             <div class="row" >
               <div class="col-sm-8 col-sm-offset-2 text-center">
                 <h2 class="white" style="margin-top: 0px">Resume and Skills</h2>
-                <p class="white">Click on the image below to download my resume!</p>
+                <p class="white">Click on the image below to view my resume!</p>
               </div>
             </div>
         </div>
@@ -123,41 +123,54 @@
                 </div>
             </div>
 		    <div class="row">
-                <div class="col-xs-6 col-xs-offset-3 text-center">
+                <div class="col-sm-6 col-sm-offset-3 text-center">
                     <i id="java" class="icon-java code"></i>
                     <i class="icon-c code"></i>
                     <i class="icon-mssql code"></i>
-                    <i class="fa fa-android code" aria-hidden="true" style="padding-right:.1em;font-size:6.5em !important; position:relative; top:.02em;"></i>
+                    <i class="fa fa-android code" aria-hidden="true" style="padding-right:.1em;font-size:5.5em !important; position:relative; top:.02em;"></i>
                 </div>
-                <div class="col-xs-6 col-xs-offset-3 text-center">
+                <div class="col-sm-6 col-sm-offset-3 text-center">
                     <i class="icon-python code"></i>
-                    <i class="fa fa-html5 code" aria-hidden="true" style="padding-right:.02em;font-size:6.5em !important; position:relative; top:.02em;"></i>
-                    <i class="fa fa-css3 code" aria-hidden="true" style="font-size:6.5em !important; position:relative; top:.02em;"></i>
+                    <i class="fa fa-html5 code" aria-hidden="true" style="padding-right:.02em;font-size:5.5em !important; position:relative; top:.02em;"></i>
+                    <i class="fa fa-css3 code" aria-hidden="true" style="font-size:5.5em !important; position:relative; top:.02em;"></i>
                     <i class="icon-javascript code" style="border-radius:10%;"></i>
                 </div>
 		    </div>
 	    </div>
 
     </section>
-        
-        
+    
     <!--Projects-->
     <section id="projects" class="pad-xl">
       <div class="container">
         <div class="row margin-40">
           <div class="col-sm-8 col-sm-offset-2 text-center">
             <h2 class="black">Projects</h2>
-            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut.</p>
+            <p class="black">"Computer science is no more about computers than astronomy is about telescopes." <br>- Edsger Dijkstra</p>
           </div>
         </div>
-        
-        <div class="row margin-50">
-          
-          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1s">
-              
-          </div>
-          
-        </div>
+        <div class="container">
+		    <div class="row">
+			    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+				    <h3 class="text-center">Summarize Co.</h3>
+                    <hr class="line purple">
+                    <img src="img/summarizeco.gif" style="width:100%; height:auto;"/>
+				    <p>HackGT project that helps potential job applicants form better relations with companies, creating richer dialogue between recruiters and individuals. Website created using Python and Flask. Click image for link.</p>
+			    </div>
+			    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.8s">
+				    <h3 class="text-center">RoadTrip</h3>
+                    <hr  class="line blue">
+                    <a href="https://github.com/SpokenBanana/RoadTrip" target="_blank"><img src="img/roadtrip.jpg" style="width:100%; height:auto;"/></a>
+				    <p>Web app developed for HackNC that suggests the best attractions for a road trip from a start and final destination. Made using using Esri’s ArcGIS Javascript API, Yelp’s API, Flask, and Google App Engine. Click the image for the link.</p>
+			    </div>
+            
+		    </div>
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a id="docflex" href="https://github.com/SuperLinguini" target="_blank"> <figure><img src="img/GitHub-Mark-120px-plus.png" style="padding:0; margin:0;"><figcaption class="text-center" style="font-family: 'Raleway', sans-serif;">GitHub</figcaption></figure> </a>
+                </div>
+            </div>
+	    </div>
         
       </div>
     </section>
@@ -175,10 +188,11 @@
             
             <div class="row">
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                <form role="form">
+                <form role="form" action="mail.php" method="POST">
                   <div class="form-group">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
-                      <input type="textarea" class="form-control" id="inputText" placeholder="Enter text">
+                      <input type="text" class="form-control" id="inputName" placeholder="Enter Name" style="margin-bottom:0.5em;">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email" style="margin-bottom:0.5em;">
+                      <textarea class="form-control" id="textArea" rows="4" placeholder="Enter text"></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary btn-lg">Send</button>
                 </form>

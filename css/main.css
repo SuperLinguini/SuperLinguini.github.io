@@ -559,7 +559,7 @@ footer {
 }   
 
 .code {
-    font-size: 6em !important;
+    font-size: 5em !important;
     border-radius: 10%;
     background-color: #8be2e5;
       color: #ffffff;
@@ -570,7 +570,6 @@ footer {
 }
 
 .code:hover {
-    font-size: 6em !important;
     border-radius: 10%;
     background-color: #4df4fa;
       color: #ffffff;
