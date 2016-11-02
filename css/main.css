@@ -583,3 +583,9 @@ footer {
 #resume {
     background: url(../img/cs-min.jpg) no-repeat center center;
 }
+
+#docflex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
