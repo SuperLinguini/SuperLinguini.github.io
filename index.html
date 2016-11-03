@@ -182,12 +182,14 @@
             
             <div class="row">
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                <form role="form">
+                <form role="form" action="https://formspree.io/milind.lingineni@gmail.com" method="POST">
                   <div class="form-group">
-                      <input type="text" class="form-control" id="inputName" placeholder="Enter Name" style="margin-bottom:0.5em;">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email" style="margin-bottom:0.5em;">
-                      <textarea class="form-control" id="message" rows="4" placeholder="Enter text"></textarea>
+                      <input type="text" class="form-control" name="name" placeholder="Enter Name" style="margin-bottom:0.5em;">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email" name="_replyto" style="margin-bottom:0.5em;">
+                      <textarea class="form-control" name="name" id="message" rows="4" placeholder="Enter text"></textarea>
                   </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_subject" value="New submission!" /> 
                   <button type="submit" class="btn btn-primary btn-lg">Send</button>
                 </form>
               </div>
