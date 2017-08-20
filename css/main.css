@@ -406,6 +406,11 @@ hr.line {
     color: #fdc05d;
 }
 
+.red {
+    border-color: #fd441e;
+    color: #fd441e;
+}
+
 .iphone {
     position: relative;
     height: 200px;
