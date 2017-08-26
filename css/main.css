@@ -411,6 +411,11 @@ hr.line {
     color: #fd441e;
 }
 
+.magenta {
+    border-color: #ee426e;
+    color: #ee426e;
+}
+
 .iphone {
     position: relative;
     height: 200px;
